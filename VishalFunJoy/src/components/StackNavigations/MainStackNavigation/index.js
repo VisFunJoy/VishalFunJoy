@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeComponent from '../../Home/index'
-import ContactMeComponent from '../../ContactMe/index'
+import {ContactMeComponent} from '../../ContactMe/index'
 import AboutMeComponent from '../../AboutMe/index'
 import BlogComponent from '../../Blog/index'
 import SingleBlogComponent from '../../SingleBlog/index'
