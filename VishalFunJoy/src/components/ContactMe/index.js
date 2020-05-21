@@ -51,7 +51,7 @@ export class ContactMeComponent extends Component {
         ],
         { cancelable: false }
       );
-
+      this.setState({displayIndicator: false});
       return;
     }
 
